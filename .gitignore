@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# --- Datos / artefactos ---
+data/
+tmp/
+cache/
+logs/
+*.log
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+*.jsonl
+
+# --- n8n ---
+.n8n/
+backups/
+*.sqlite
+
+# --- Node (si llegas a usar algo de front)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.iml
+
+# --- SO ---
+.DS_Store
+Thumbs.db
+
+# --- Build/packaging ---
+dist/
+build/
+*.egg-info/
+
+# --- BI (opcional) ---
+bi/powerbi_alt/*.pbix
+
+# --- Infra/keys (si corresponde) ---
+infra/terraform.tfstate*
+*.pem
+*.key
+*.crt
+
+# Carpeta de notas
+
+Trabajo SAP/
