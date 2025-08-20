@@ -3,4 +3,5 @@ pandas
 pyarrow
 boto3
 python-dotenv
-s3fs
+s3fs==2024.3.1
+fsspec==2024.3.1
